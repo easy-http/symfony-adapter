@@ -1,7 +1,7 @@
 <p align="center"><img src="https://blog.pleets.org/img/articles/easy-http-logo-320.png"></p>
 
 <p align="center">
-<a href="https://travis-ci.com/easy-http/symfony-layer"><img src="https://travis-ci.com/easy-http/symfony-layer.svg?branch=master" alt="Build Status"></a>
+<a href="https://app.travis-ci.com/easy-http/symfony-layer"><img src="https://app.travis-ci.com/easy-http/symfony-layer.svg?token=GE9hU33V7eRzgt1gzkro&branch=master" alt="Build Status"></a>
 <a href="https://scrutinizer-ci.com/g/easy-http/symfony-layer"><img src="https://img.shields.io/scrutinizer/g/easy-http/symfony-layer.svg" alt="Code Quality"></a>
 <a href="https://scrutinizer-ci.com/g/easy-http/symfony-layer/?branch=master"><img src="https://scrutinizer-ci.com/g/easy-http/symfony-layer/badges/coverage.png?b=master" alt="Code Coverage"></a>
 </p>
