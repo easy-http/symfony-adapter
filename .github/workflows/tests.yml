@@ -1,0 +1,36 @@
+name: tests
+
+on:
+  push:
+    branches:
+      - 1.x
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  symfony5:
+    name: symfony5
+    runs-on: ubuntu-latest
+    strategy:
+      max-parallel: 10
+      matrix:
+        php: [ '7.4', '8.0', '8.1', '8.2', '8.3' ]
+
+    steps:
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php }}
+          coverage: none
+
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup Symfony Client 5
+        run: composer require symfony/http-client:^5.1 --no-interaction
+
+      - name: Install dependencies
+        run: composer install --no-interaction
+
+      - name: Execute tests
+        run: composer tests
