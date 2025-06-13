@@ -1,7 +1,7 @@
 <p align="center"><img src="https://blog.pleets.org/img/articles/easy-http-logo-320.png"></p>
 
 <p align="center">
-<a href="https://app.travis-ci.com/easy-http/symfony-layer"><img src="https://app.travis-ci.com/easy-http/symfony-layer.svg?token=GE9hU33V7eRzgt1gzkro&branch=master" alt="Build Status"></a>
+<a href="https://github.com/easy-http/symfony-layer/actions/workflows/tests.yml"><img src="https://github.com/easy-http/symfony-layer/actions/workflows/tests.yml/badge.svg?branch=1.x" alt="Build Status"></a>
 <a href="https://scrutinizer-ci.com/g/easy-http/symfony-layer"><img src="https://img.shields.io/scrutinizer/g/easy-http/symfony-layer.svg" alt="Code Quality"></a>
 <a href="https://scrutinizer-ci.com/g/easy-http/symfony-layer/?branch=master"><img src="https://scrutinizer-ci.com/g/easy-http/symfony-layer/badges/coverage.png?b=master" alt="Code Coverage"></a>
 </p>
@@ -10,9 +10,9 @@
 
 This is an HTTP layer for Symfony Client. For more layers see [Easy Http](https://github.com/easy-http).
 
-<a href="https://sonarcloud.io/dashboard?id=easy-http_symfony-layer"><img src="https://sonarcloud.io/api/project_badges/measure?project=easy-http_symfony-layer&metric=security_rating" alt="Bugs"></a>
-<a href="https://sonarcloud.io/dashboard?id=easy-http_symfony-layer"><img src="https://sonarcloud.io/api/project_badges/measure?project=easy-http_symfony-layer&metric=bugs" alt="Bugs"></a>
-<a href="https://sonarcloud.io/dashboard?id=easy-http_symfony-layer"><img src="https://sonarcloud.io/api/project_badges/measure?project=easy-http_symfony-layer&metric=code_smells" alt="Bugs"></a>
+<a href="https://sonarcloud.io/component_measures?metric=security_rating&branch=1.x&id=easy-http_symfony-layer"><img src="https://sonarcloud.io/api/project_badges/measure?project=easy-http_symfony-layer&metric=security_rating&branch=1.x" alt="Bugs"></a>
+<a href="https://sonarcloud.io/component_measures?metric=bugs&branch=1.x&id=easy-http_symfony-layer"><img src="https://sonarcloud.io/api/project_badges/measure?project=easy-http_symfony-layer&metric=bugs&branch=1.x" alt="Bugs"></a>
+<a href="https://sonarcloud.io/component_measures?metric=code_smells&branch=1.x&id=easy-http_symfony-layer"><img src="https://sonarcloud.io/api/project_badges/measure?project=easy-http_symfony-layer&metric=code_smells&branch=1.x" alt="Bugs"></a>
 
 This library supports the following versions of Symfony Http Client.
 
