@@ -4,8 +4,8 @@ namespace Tests;
 
 use EasyHttp\LayerContracts\Contracts\HttpClientAdapter;
 use EasyHttp\LayerContracts\Contracts\HttpClientRequest;
-use EasyHttp\SymfonyLayer\SymfonyAdapter;
-use EasyHttp\SymfonyLayer\SymfonyRequest;
+use EasyHttp\SymfonyAdapter\SymfonyAdapter;
+use EasyHttp\SymfonyAdapter\SymfonyRequest;
 use Symfony\Component\HttpClient\MockHttpClient;
 use Tests\Concerns\HasHandler;
 

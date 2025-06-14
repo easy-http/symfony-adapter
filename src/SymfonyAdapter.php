@@ -1,6 +1,6 @@
 <?php
 
-namespace EasyHttp\SymfonyLayer;
+namespace EasyHttp\SymfonyAdapter;
 
 use EasyHttp\LayerContracts\Contracts\HttpClientAdapter;
 use EasyHttp\LayerContracts\Contracts\HttpClientRequest;

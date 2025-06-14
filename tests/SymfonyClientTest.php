@@ -5,7 +5,7 @@ namespace Tests;
 use EasyHttp\LayerContracts\Exceptions\HttpClientException;
 use EasyHttp\LayerContracts\Exceptions\ImpossibleToParseJsonException;
 use PHPUnit\Framework\TestCase;
-use EasyHttp\SymfonyLayer\SymfonyClient;
+use EasyHttp\SymfonyAdapter\SymfonyClient;
 use Tests\Concerns\HasHandler;
 use Tests\Mocks\PayPalApi;
 use Tests\Mocks\RatesApi;

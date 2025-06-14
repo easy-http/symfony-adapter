@@ -2,7 +2,7 @@
 
 namespace Tests\Mocks;
 
-use EasyHttp\SymfonyLayer\Concerns\NeedsParseHeaders;
+use EasyHttp\SymfonyAdapter\Concerns\NeedsParseHeaders;
 use Psr\Http\Message\RequestInterface;
 
 class HttpInfo extends BaseMock

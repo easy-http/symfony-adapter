@@ -3,9 +3,9 @@
 namespace Tests;
 
 use EasyHttp\LayerContracts\Exceptions\ImpossibleToParseJsonException;
-use EasyHttp\SymfonyLayer\SymfonyAdapter;
-use EasyHttp\SymfonyLayer\SymfonyClient;
-use EasyHttp\SymfonyLayer\SymfonyRequest;
+use EasyHttp\SymfonyAdapter\SymfonyAdapter;
+use EasyHttp\SymfonyAdapter\SymfonyClient;
+use EasyHttp\SymfonyAdapter\SymfonyRequest;
 use GuzzleHttp\HandlerStack;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpClient\CurlHttpClient;

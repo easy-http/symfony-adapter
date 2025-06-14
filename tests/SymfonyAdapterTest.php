@@ -3,8 +3,8 @@
 namespace Tests;
 
 use EasyHttp\LayerContracts\Exceptions\HttpClientException;
-use EasyHttp\SymfonyLayer\SymfonyAdapter;
-use EasyHttp\SymfonyLayer\SymfonyRequest;
+use EasyHttp\SymfonyAdapter\SymfonyAdapter;
+use EasyHttp\SymfonyAdapter\SymfonyRequest;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpClient\MockHttpClient;
 use Tests\Concerns\HasHandler;

@@ -1,11 +1,11 @@
 <?php
 
-namespace EasyHttp\SymfonyLayer;
+namespace EasyHttp\SymfonyAdapter;
 
 use EasyHttp\LayerContracts\AbstractClient;
 use EasyHttp\LayerContracts\Contracts\HttpClientAdapter;
 use EasyHttp\LayerContracts\Contracts\HttpClientRequest;
-use EasyHttp\SymfonyLayer\Factories\ClientFactory;
+use EasyHttp\SymfonyAdapter\Factories\ClientFactory;
 
 class SymfonyClient extends AbstractClient
 {

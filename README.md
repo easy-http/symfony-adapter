@@ -48,7 +48,7 @@ composer require easy-http/symfony-adapter
 You can execute a simple request as follows.
 
 ```php
-use EasyHttp\SymfonyLayer\SymfonyClient;
+use EasyHttp\SymfonyAdapter\SymfonyClient;
 
 $client = new SymfonyClient();
 $response = $client->call('GET', 'https://api.ratesapi.io/api/2020-07-24/?base=USD');
@@ -63,7 +63,7 @@ A prepared request is a more flexible way to generate a request. You can use the
 to specify request query.
 
 ```php
-use EasyHttp\SymfonyLayer\SymfonyClient;
+use EasyHttp\SymfonyAdapter\SymfonyClient;
 
 $client = new SymfonyClient();
 
@@ -78,7 +78,7 @@ $response->parseJson();     // array
 Also, you can use the `setJson` method to set a json string as the body.
 
 ```php
-use EasyHttp\SymfonyLayer\SymfonyClient;
+use EasyHttp\SymfonyAdapter\SymfonyClient;
 
 $client = new SymfonyClient();
 
@@ -99,7 +99,7 @@ $response->parseJson();     // array
 Actually this library supports basic authentication natively.
 
 ```php
-use EasyHttp\SymfonyLayer\SymfonyClient;
+use EasyHttp\SymfonyAdapter\SymfonyClient;
 
 $client = new SymfonyClient();
 

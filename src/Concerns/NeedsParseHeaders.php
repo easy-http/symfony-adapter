@@ -1,6 +1,6 @@
 <?php
 
-namespace EasyHttp\SymfonyLayer\Concerns;
+namespace EasyHttp\SymfonyAdapter\Concerns;
 
 trait NeedsParseHeaders
 {

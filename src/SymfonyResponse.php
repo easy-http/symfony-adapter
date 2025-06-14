@@ -1,10 +1,10 @@
 <?php
 
-namespace EasyHttp\SymfonyLayer;
+namespace EasyHttp\SymfonyAdapter;
 
 use EasyHttp\LayerContracts\Contracts\HttpClientResponse;
 use EasyHttp\LayerContracts\Exceptions\ImpossibleToParseJsonException;
-use EasyHttp\SymfonyLayer\Concerns\NeedsParseHeaders;
+use EasyHttp\SymfonyAdapter\Concerns\NeedsParseHeaders;
 use Symfony\Contracts\HttpClient\ResponseInterface;
 
 class SymfonyResponse implements HttpClientResponse
