@@ -10,8 +10,8 @@
     ],
     "homepage": "https://easy-http.com",
     "support": {
-        "issues": "https://github.com/easy-http/symfony-layer/issues",
-        "source": "https://github.com/easy-http/symfony-layer"
+        "issues": "https://github.com/easy-http/symfony-adapter/issues",
+        "source": "https://github.com/easy-http/symfony-adapter"
     },
     "authors": [
         {
