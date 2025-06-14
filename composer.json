@@ -1,6 +1,6 @@
 {
     "name": "easy-http/symfony-adapter",
-    "description": "HTTP adapter for Guzzle Client",
+    "description": "HTTP adapter for Symfony Client",
     "type": "library",
     "license": "MIT",
     "keywords": [
