@@ -1,6 +1,15 @@
-# Release Notes for 0.x
+# Release Notes for 2.x
 
-## [v0.2.0 (2021-02-03)](https://github.com/easy-http/symfony-layer/compare/v0.1.0...v0.2.0)
+## [v2.0.0 (2025-06-15)](https://github.com/easy-http/symfony-adapter/tree/v2.0.0)
 
-### Added
-- Added support for PHP 8.0 ([#21](https://github.com/easy-http/symfony-layer/pull/21))
+### Changed
+- Renamed project from [symfony-layer](https://github.com/easy-http/symfony-layer) to [symfony-adapter](https://github.com/easy-http/symfony-adapter) for improved clarity
+- Updated namespace from `EasyHttp\SymfonyLayer` to `EasyHttp\SymfonyAdapter`
+- Updated all documentation and badges to reflect the new project name
+- Deprecate Scrutinizer CI and use SonarCloud for code quality metrics
+
+### Deprecation Notice
+- The original `easy-http/symfony-layer` package is now deprecated
+- Users are encouraged to migrate to `easy-http/symfony-adapter` v2.0.0
+- No functional changes were made in this release, only naming improvements
+
