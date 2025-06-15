@@ -2,7 +2,7 @@
 
 namespace EasyHttp\SymfonyAdapter;
 
-use EasyHttp\LayerContracts\Common\ClientRequest;
+use EasyHttp\Contracts\Common\ClientRequest;
 
 class SymfonyRequest extends ClientRequest
 {
