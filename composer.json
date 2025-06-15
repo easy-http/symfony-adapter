@@ -23,7 +23,7 @@
         "php": "^7.4|^8.0",
         "ext-json": "*",
         "symfony/http-client": "^5.1",
-        "easy-http/layer-contracts": "^1.0"
+        "easy-http/contracts": "^2.0"
     },
     "require-dev": {
         "guzzlehttp/guzzle": "^7.0",

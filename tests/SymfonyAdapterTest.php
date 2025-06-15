@@ -2,7 +2,7 @@
 
 namespace Tests;
 
-use EasyHttp\LayerContracts\Exceptions\HttpClientException;
+use EasyHttp\Contracts\Exceptions\HttpClientException;
 use EasyHttp\SymfonyAdapter\SymfonyAdapter;
 use EasyHttp\SymfonyAdapter\SymfonyRequest;
 use PHPUnit\Framework\TestCase;

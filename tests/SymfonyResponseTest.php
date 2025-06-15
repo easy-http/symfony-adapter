@@ -2,7 +2,7 @@
 
 namespace Tests;
 
-use EasyHttp\LayerContracts\Exceptions\ImpossibleToParseJsonException;
+use EasyHttp\Contracts\Exceptions\ImpossibleToParseJsonException;
 use EasyHttp\SymfonyAdapter\SymfonyAdapter;
 use EasyHttp\SymfonyAdapter\SymfonyClient;
 use EasyHttp\SymfonyAdapter\SymfonyRequest;

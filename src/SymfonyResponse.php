@@ -2,8 +2,8 @@
 
 namespace EasyHttp\SymfonyAdapter;
 
-use EasyHttp\LayerContracts\Contracts\HttpClientResponse;
-use EasyHttp\LayerContracts\Exceptions\ImpossibleToParseJsonException;
+use EasyHttp\Contracts\Contracts\HttpClientResponse;
+use EasyHttp\Contracts\Exceptions\ImpossibleToParseJsonException;
 use EasyHttp\SymfonyAdapter\Concerns\NeedsParseHeaders;
 use Symfony\Contracts\HttpClient\ResponseInterface;
 
